@@ -54,6 +54,7 @@
     "url": "https://github.com/Borewit/readable-web-to-node-stream/issues"
   },
   "dependencies": {
+    "node-polyfill-webpack-plugin": "^1.1.4",
     "process": "^0.11.10",
     "readable-stream": "^3.6.0"
   },
