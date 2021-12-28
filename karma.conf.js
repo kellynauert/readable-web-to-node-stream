@@ -76,3 +76,14 @@ module.exports = config => {
     colors: true
   });
 };
+ReferenceError: process is not defined
+    at resume (http://localhost:3001/static/js/bundle.js:190236:5)
+    at ReadableWebToNodeStream.Readable.resume (http://localhost:3001/static/js/bundle.js:190226:5)
+    at ReadableWebToNodeStream.Readable.on (http://localhost:3001/static/js/bundle.js:190144:39)
+    at g.stream (http://localhost:3001/static/js/bundle.js:141910:36)
+    at Object.parse (http://localhost:3001/static/js/bundle.js:141621:16)
+    at Promise.catch.parseError (http://localhost:3001/static/js/bundle.js:6662:54)
+    at new Promise (<anonymous>)
+    at parsePreview (http://localhost:3001/static/js/bundle.js:6629:10)
+    at http://localhost:3001/static/js/bundle.js:5049:58
+    at invokePassiveEffectCreate (http://localhost:3001/static/js/bundle.js:166959:24)
